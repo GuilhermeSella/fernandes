@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/TF.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/
+    font-awesome/4.7.0/css/font-awesome.min.css'> 
+    <title>Técnico Fernandes</title>
+</head>
+<body id="body">
+    <header>
+        <nav>
+            <a href="" class="logo">Logo</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#agendamento">Agendamento</a></li>
+
+            </ul>
+
+            <button id="btn">&#9776</button>
+        </nav>
+    </header>
+        <nav class="navMobile" id="navMobile">
+                <ul>
+                    <li><a onclick="fecharMenu()" href="#">Home</a></li>
+                    <li><a onclick="fecharMenu()" href="#sobre">Sobre</a></li>
+                    <li><a onclick="fecharMenu()" href="#servicos">Serviços</a></li>
+                    <li><a onclick="fecharMenu()" href="#especialidades">Especialidades</a></li>
+                    <li><a onclick="fecharMenu()" href="#agendamento">Agendamento</a></li>
+                </ul>
+        </nav>
+
+        <div class="fechanav" onclick="fecharMenu()" id="fechanav">
+
+        </div>
+
+        <div class="apresentaçao" id="ap">
+           <div class="textAp">
+             <h1>Manassés Fernandes</h1>
+           </div>
+           <div class="textAp">
+            <h2>Assistência técnica em São Paulo-SP</h2>
+            </div>
+           <div class="textAp">
+                <p>Serviço técnico especializado em eletrodomésticos de todas as marcas !</p>
+           </div>
+           <div class="textAp" style="flex-direction: column;">
+             
+             <p >&#9993; tecnicofernandes@outlook.com</p>
+             <p >&#9990; 11 97337-7281</p>
+           </div>
+           <p id="sobre"></p>     
+        </div> 
+        
+       
+        <div class="Title" data-aos="fade-up" >
+            
+            <h1 >Sobre</h1>
+            
+        </div>
+
+    <section class="sobre"  data-aos="fade-up">
+        <div>
+            <p >Olá, me chamo Manassés Fernandes e sou especialista em assistência técnica de eletrodomésticos, voltado principalmente em lava louças, secadoras e maquinas de lavar de diferentes marcas, LG, Electrolux, Brastemp, Consul entre outras. Trabalho na área a mais de 15 anos atendendo clientes de toda a capital de São Paulo.
+            </p>
+            
+        </div>
+        <div>
+            <img   src="assets/manassesfernandes.jpg" alt="">
+            <p id="servicos"></p>
+        </div>
+        
+    </section>
+
+
+
+    <div class="Title" id="servicos"   data-aos="fade-up">
+        <h1 id="servicos" >Serviços</h1>
+    </div>
+
+    <main class="main" data-aos="fade-up">
+        <div class="cards" >
+            <div class="card" data-aos="fade-right">
+                
+                <h1>Vistoria</h1>
+                <p>Agende uma visita de vistoria para o diagnóstico do defeito que o seu aparelho está apresentando e para planejar a melhor forma de trata-lo. Também será fornecido conselhos sobre como usar e cuidar adequadamente desses aparelhos para prolongar sua vida útil.  </p>
+            </div>
+            <div class="card" data-aos="fade-right">
+                
+                <h1>Manutenção e conserto</h1>
+                <p>Uma vez que o problema foi identificado, será determinado quais peças precisam ser substituídas ou reparadas. Após os reparos ou as substuições serem concluidas, o aparelho será testado para garantir seu funcionamento correto.</p>
+            </div>
+            <div class="card" data-aos="fade-right">
+                
+                <h1>Compra e venda</h1>
+                <p id="especialidades" >Negocio máquinas que apresentam algum defeito grave, não está com um bom funcionamento ou não tem conserto e também vendo semi-novos em perfeito estado de funcionamento.</p>
+            </div>
+        </div>
+    </main>
+        
+
+    
+    <div class="Title"  data-aos="fade-right">
+        <h1 >Especialidades</h1>
+    </div>
+
+    <main class="main" >
+        <div class="cards">
+            <div class="especialidades" data-aos="fade-right">
+                <img src="assets/lavalouças.jpg" alt="">
+                <h1>Lava louças</h1>
+                
+            </div>
+            <div class="especialidades" data-aos="fade-right">
+                <img src="assets/pexels-rodnae-productions-5591640.jpg" alt="lava roupas">
+                <h1>Lava roupas</h1>
+                
+            </div>
+            <div class="especialidades" data-aos="fade-right">
+                <img src="assets/secadora2.jpg" alt="">
+                <h1 id="agendamento">Secadora</h1>
+                
+                
+            </div>
+        </div>
+    </main>
+
+    <div class="Title"  data-aos="fade-right">
+        <h1>Agendamento</h1>
+    </div>
+        <div class="apresentaçao" data-aos="fade-up">
+            <div class="textAp" style="flex-direction: column;" >
+                <p>Deseja solicitar uma visita de vistoria, comprar uma máquina ou vender algum seminovo com defeito?
+                </p>
+                <p>Clique aqui e entre em contato comigo via WhatsApp!</p>
+                <br>
+                
+                    
+                    <a href="https://api.whatsapp.com/send?phone=5511973377281" class="linkwpp" target="_blank"><button class="wppButton" >Fale comigo <i class='fa fa-whatsapp'></i> </button></a>
+                
+            </div>
+            
+        </div>
+
+
+        
+
+
+       
+        <footer class="credits">
+            <h1>Todos os direitos reservados. </h1>
+            <h1>Desenvolvido por Guilherme Sella</h1>
+        </footer>
+</body>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1000,
+        
+      });
+    </script>
+</html>
