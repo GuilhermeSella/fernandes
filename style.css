@@ -224,7 +224,6 @@ header nav button{
 
 
 .sobre{
-   
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -236,7 +235,7 @@ header nav button{
 .sobre div{
     width: 33%;
     display: flex;
-    
+    padding-left: 40px;
     justify-content: center;
     align-items: center;
     
