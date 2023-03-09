@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Re+Hat+Display:wght@500&family=Secular+One&display=swap');
 
 *{
     padding: 0;
@@ -310,23 +311,23 @@ header nav button{
     margin: 3vh  10px 3vh 10px;
     width: 42vh;
     height: 32vh;
-    background-color: rgb(6, 10, 32);
-    border: #003FD1 2px solid;
-    transition: ease-out .4s;
-    padding: 20px;
-}
-.card:hover{
     background-color: #003FD1;
-   
+    border-radius: 8px;
+    
+    padding: 20px;
+    
 }
+
 
 .card h1{
     text-align: center;
     color: white;
+
+    text-decoration: underline ;
     font-size: 3.2vh;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     padding-bottom: 5px;
-    font-weight: 100;
+    font-weight: 200;
 }
 .card p{
     color: white;
