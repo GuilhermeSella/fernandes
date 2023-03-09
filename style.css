@@ -234,7 +234,7 @@ header nav button{
 
 
 .sobre div{
-    width: 33%;
+    width: 31%;
     display: flex;
     
     justify-content: center;
@@ -253,7 +253,7 @@ header nav button{
 .sobre div p{
     color: white;
     font-family: 'Quicksand', sans-serif;
-    text-align: center;
+    text-align: right;
     font-size: 2.3vh;
     
     margin-top: 4vh;
@@ -266,6 +266,9 @@ header nav button{
        
         width: 65%;
     }
+    .sobre div p{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:765px) {
@@ -273,6 +276,9 @@ header nav button{
     .sobre div{
        
         width: 82%;
+    }
+    .sobre div p{
+        
     }
     .Title{
         padding-top: 0vh;
